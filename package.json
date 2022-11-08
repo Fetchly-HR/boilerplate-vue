@@ -1,0 +1,40 @@
+{
+  "name": "boilerplate-vue",
+  "version": "1.0.0",
+  "description": "Vue Boilerplate template",
+  "main": "index.js",
+  "author": "Milo Delgado",
+  "license": "MIT",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "cross-env NODE_ENV=production vite build",
+    "test": "vitest -u",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@vue/test-utils": "^2.2.1",
+    "axios": "^1.1.3",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/compiler-sfc": "^3.2.41",
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.26.0",
+    "eslint-plugin-vue": "^9.7.0",
+    "jsdom": "^20.0.2",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^2.2.19",
+    "vite": "^3.2.1",
+    "vitest": "^0.24.5"
+  },
+  "resolutions": {
+    "postcss": "^8.4.18"
+  }
+}
